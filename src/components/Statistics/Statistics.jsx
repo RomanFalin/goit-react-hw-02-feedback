@@ -4,7 +4,7 @@ import Notification from 'components/Notification/Notification';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return total === 0 ? (
-    <Notification message="There is no feedback" />
+    <Notification message="Attention! No feedback given" />
   ) : (
     <StatList>
       <StatItem>Good: {good}</StatItem>

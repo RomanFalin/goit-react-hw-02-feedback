@@ -1,9 +1,10 @@
-import styled from "@emotion/styled/types/base";
+import styled from '@emotion/styled';
 export const SectionBox = styled.section`
   width: 400px;
   margin: 0 auto;
 `;
 export const SectionTitle = styled.p`
+  text-align: center;
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
